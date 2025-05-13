@@ -1,0 +1,36 @@
+{
+  "name": "financetracker",
+  "license": "0BSD",
+  "version": "1.0.0",
+  "main": "components/index.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@expo/metro-runtime": "~5.0.4",
+    "@react-native-async-storage/async-storage": "^2.1.2",
+    "@react-native-picker/picker": "^2.11.0",
+    "@react-navigation/native": "^7.1.8",
+    "@react-navigation/stack": "^7.3.1",
+    "axios": "^1.9.0",
+    "expo": "~53.0.9",
+    "expo-status-bar": "~2.2.3",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "react-native": "0.79.2",
+    "react-native-chart-kit": "^6.12.0",
+    "react-native-elements": "^3.4.3",
+    "react-native-gesture-handler": "~2.24.0",
+    "react-native-linear-gradient": "^2.8.3",
+    "react-native-svg": "15.11.2",
+    "react-native-vector-icons": "^10.2.0",
+    "react-native-web": "^0.20.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0"
+  },
+  "private": true
+}
